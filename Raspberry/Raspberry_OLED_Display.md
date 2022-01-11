@@ -187,6 +187,35 @@ oled.display()
   
   * *oled.display()*
 
+```python
+#!/usr/bin/env python
+# coding=utf-8
+ 
+# Bibliotheken importieren
+from lib_oled96 import ssd1306
+from smbus import SMBus
+from PIL import Image
+ 
+# Display einrichten
+i2cbus = SMBus(1)            # 0 = Raspberry Pi 1, 1 = Raspberry Pi > 1
+oled = ssd1306(i2cbus)
+ 
+# Ein paar Abkürzungen, um den Code zu entschlacken
+draw = oled.canvas
+ 
+# Display zum Start löschen
+oled.cls()
+oled.display()
+ 
+# Bilddatei ausgeben
+draw.bitmap((32, 0), Image.open('pi_logo.png'), fill=1)
+ 
+# Ausgaben auf Display schreiben
+oled.display()
+```
+
+
+
 
 
 #### Bild invertieren
@@ -221,20 +250,39 @@ oled.display()
 
   * `draw.rectangle((32, 0, 95, 63), outline=1, fill=1)`
   * `draw.bitmap((32, 0), Image.open('pi_logo.png'), **fill=0**)`
+    **fill != 1 --> fill = 0**
 
 * ##### Ausgabe auf Display schreiben
 
   * *oled.display()*
 
-
-
-
-
-
-
-
-
-
+```python
+#!/usr/bin/env python
+# coding=utf-8
+ 
+# Bibliotheken importieren
+from lib_oled96 import ssd1306
+from smbus import SMBus
+from PIL import Image
+ 
+# Display einrichten
+i2cbus = SMBus(1)            # 0 = Raspberry Pi 1, 1 = Raspberry Pi > 1
+oled = ssd1306(i2cbus)
+ 
+# Ein paar Abkürzungen, um den Code zu entschlacken
+draw = oled.canvas
+ 
+# Display zum Start löschen
+oled.cls()
+oled.display()
+ 
+# Bilddatei ausgeben
+draw.rectangle((32, 0, 95, 63), outline=1, fill=1)
+draw.bitmap((32, 0), Image.open('pi_logo.png'), fill=0)
+ 
+# Ausgaben auf Display schreiben
+oled.display()
+```
 
 
 
