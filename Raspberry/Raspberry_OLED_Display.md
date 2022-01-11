@@ -138,14 +138,14 @@ oled.display()
 
 #### Formen Zeichnen
 
-* Linie: *draw.line((x1, y1, x2, y2), fill=1)*
-* Rechteck (nur Rahmen): *draw.rectangle((x1, y1, x2, y2), outline=1, fill=0)*
-* Rechteck (ausgefüllt): *draw.rectangle((x1, y1, x2, y2), outline=1, fill=1)*
-* Ellipse: *draw.ellipse((x1, y1, x2, y2), outline=1, fill=0)*
-* Polygon: *draw.polygon([(x1, y1), (x2, y2), (x3, y3)], outline=1, fill=0)*
+* **Linie**: *draw.line((x1, y1, x2, y2), fill=1)*
+* **Rechteck** (nur Rahmen): *draw.rectangle((x1, y1, x2, y2), outline=1, fill=0)*
+* **Rechteck** (ausgefüllt): *draw.rectangle((x1, y1, x2, y2), outline=1, fill=1)*
+* **Ellipse**: *draw.ellipse((x1, y1, x2, y2), outline=1, fill=0)*
+* **Polygon**: *draw.polygon([(x1, y1), (x2, y2), (x3, y3)], outline=1, fill=0)*
 * Die Eckpunkte werden als Array angegeben. `(x1, y1)` erste Ecke, `(x2. y2)` zweite Ecke,
   `(x3, y3)`dritte Ecke, ...
-* Bogen: `draw.arc((x1, y1, x2, y2), α1, α2, fill=1)`
+* **Bogen**: `draw.arc((x1, y1, x2, y2), α1, α2, fill=1)`
   `α1, α2` stehen für den Startwinkel und den Endwinkel, gerechnet im Uhrzeigersinn, begonnen bei 3:00 Uhr. Der Platzbedarf eines Bogens ist der selbe, wie der einer Ellipse, jedoch wird nur der angegebene Winkel gezeichnet.
 * mit `oled.height` und `oled.whith` kann man auf dem gesamten Bildschirm zeichnen
 
