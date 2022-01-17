@@ -100,3 +100,4 @@ while True:
         sys.exit(0)
 ```
 
+[Quelle](https://indibit.de/raspberry-pi-cpu-auslastung-als-diagramm-auf-oled-display/)
