@@ -1,0 +1,7 @@
+C:\Users\david\OneDrive\Desktop\Whaodie\SEW\2223-3AHIT-SEW\220915_Klassenhierachie\bin\Debug\220915_Klassenhierachie.exe.config
+C:\Users\david\OneDrive\Desktop\Whaodie\SEW\2223-3AHIT-SEW\220915_Klassenhierachie\bin\Debug\220915_Klassenhierachie.exe
+C:\Users\david\OneDrive\Desktop\Whaodie\SEW\2223-3AHIT-SEW\220915_Klassenhierachie\bin\Debug\220915_Klassenhierachie.pdb
+C:\Users\david\OneDrive\Desktop\Whaodie\SEW\2223-3AHIT-SEW\220915_Klassenhierachie\obj\Debug\220915_Klassenhierachie.csproj.AssemblyReference.cache
+C:\Users\david\OneDrive\Desktop\Whaodie\SEW\2223-3AHIT-SEW\220915_Klassenhierachie\obj\Debug\220915_Klassenhierachie.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Desktop\Whaodie\SEW\2223-3AHIT-SEW\220915_Klassenhierachie\obj\Debug\220915_Klassenhierachie.exe
+C:\Users\david\OneDrive\Desktop\Whaodie\SEW\2223-3AHIT-SEW\220915_Klassenhierachie\obj\Debug\220915_Klassenhierachie.pdb
