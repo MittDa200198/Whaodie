@@ -91,12 +91,17 @@ namespace _220915_Klassenhierachie
 
     //Sauegetiere --- ende
 
-    class Reptilien
+    class Reptilien : Lebewesen
     {
+       public void häuten()
+        {
+            Console.WriteLine("Das Reptiel hauetet sich");
+        }
+
         // nichts bekannt das man nicht auch in die Mainclass schreiben könnte
     }
 
-    class Insecten
+    class Insecten : Lebewesen
     {
         // nichts bekannt das man nicht auch in die Mainclass schreiben könnte
     }
