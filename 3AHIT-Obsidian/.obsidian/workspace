@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GGP/notes/19.09.2022.md",
+            "file": "readme.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GGP/notes/19.09.2022.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GGP/notes/19.09.2022.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GGP/notes/19.09.2022.md"
+                "file": "readme.md"
               }
             }
           }
@@ -131,14 +131,14 @@
   "active": "fe1aa33f3966d63a",
   "lastOpenFiles": [
     "x_Privat/Downloads.md",
-    "INSY-Tanz/notes/19.09.2022.md",
     "Markdown Funktions.md",
+    "Template.md",
+    "ITP2-Hilg-Hosu/Shju/notes/20.09.2022.md",
+    "D-Hoec/notes/19.09.2022.md",
+    "GGP/notes/19.09.2022.md",
+    "INSY-Tanz/notes/19.09.2022.md",
     "INSY-Tanz/notes/15.9.2022.md",
     "INSY-Tanz/assets/Aufgabe_220919_INSY.pdf",
-    "D-Hoec/notes/19.09.2022.md",
-    "SEW-Hauk-Glaf/notes/15.9.2022.md",
-    "E-Niac/notes/16.09.2022.md",
-    "SYT-Fial/notes/14.9.2022.md",
-    "ITP2-Hilg-Hosu/Shju/notes/15.09.2022.md"
+    "SEW-Hauk-Glaf/notes/15.9.2022.md"
   ]
 }
