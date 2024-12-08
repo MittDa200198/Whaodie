@@ -15,7 +15,8 @@ class MyController(Controller):
         print("Hello world")
         
     def on_x_release(self):
-        print("Goodby world")
+        #print("Goodby world")
+        pass
 
 # Linker Joy-Stick
     def on_L3_up(self, val):
@@ -61,9 +62,14 @@ class MyController(Controller):
         # max-val = 32767
         # grunsaetzlich mal + 32510 um positive Werte zu haben
         # somit ist der maximale wert 32510 + 32767 = 65277 = 100%
-        val = (val + 32510) / 652.77
+        val = round((val + 32510) / 652.77, 2)
         
-        print(int(val)g)
+        #typecast des float "val" auf "str" damit der Wert ausgegeben werden kann
+        print("R2:" + str(val))
+        
+# L2 Events
+    def on_L2_press(self, val):
+        pass
 
 controller = MyController(interface="/dev/input/js0", connecting_using_ds4drv=False)
 controller.listen()
